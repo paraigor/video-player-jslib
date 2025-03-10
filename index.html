@@ -4,16 +4,39 @@
   <title>Пример подключения плеера</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+  <style>
+    .player-size {
+      width: 800px;
+      height: 600px;
+    }
+    .player-container {
+      width: 100%;
+      height: 100%
+    }
+    .player-controlbar {
+      width: 100%;
+      background-color: #000;
+    }
+    .player-button {
+      width: 24px;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+    .white {
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
-  <div id="player" style="width: 800px; height: 600px;">
-    <div class="js-video-container" style="width: 100%; height: 100%"></div>
-    <div style="width: 100%; background-color: #000;">
-      <button class="js-play-button" style="width: 24px; border: none; background-color: transparent; cursor: pointer;">
-        <i class="fa fa-play" style="color: #fff;" aria-hidden="true"></i>
+  <div id="player" class="player-size">
+    <div class="js-video-container player-container"></div>
+    <div class="player-controlbar">
+      <button class="js-play-button player-button">
+        <i class="fa fa-play white" aria-hidden="true"></i>
       </button>
-      <button class="js-pause-button" hidden style="width: 24px; border: none; background-color: transparent; cursor: pointer;">
-        <i class="fa fa-pause" style="color: #fff;" aria-hidden="true"></i>
+      <button class="js-pause-button player-button" hidden>
+        <i class="fa fa-pause white" aria-hidden="true"></i>
       </button>
     </div>
   </div>

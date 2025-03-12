@@ -17,6 +17,7 @@
       flex-grow: 1;
     }
     .player-controlbar {
+      display: flex;
       background-color: #000;
       height: 30px;
     }
@@ -29,6 +30,9 @@
     }
     .white {
       color: #fff;
+    }
+    .filler {
+      flex-grow: 1;
     }
   </style>
 </head>
@@ -48,7 +52,10 @@
       <button class="js-volume-button player-button" hidden>
         <i class="fa fa-volume-off white" aria-hidden="true"></i>
       </button>
-      
+      <div class="filler"></div>
+      <button class="js-fullscreen-button player-button">
+        <i class="fa fa-expand white" aria-hidden="true"></i>
+      </button>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

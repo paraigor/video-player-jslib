@@ -92,3 +92,4 @@ JS код поставляется в виде одного файла `player.j
   <div class="js-progress-slider" style="background-color: red;">Прогресс</div>
 </div>
 ```
+[Пример плеера](https://paraigor.github.io/video-player-jslib/)

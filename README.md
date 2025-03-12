@@ -93,3 +93,5 @@ JS код поставляется в виде одного файла `player.j
 </div>
 ```
 [Пример плеера](https://paraigor.github.io/video-player-jslib/)
+
+![screenshot](https://github.com/user-attachments/assets/b1a40f24-e9ea-4f94-8794-a871776f1bf1)
